@@ -113,3 +113,44 @@ var percentage = (myNum / totalNum) * 100;
 console.log(percentage.toFixed(2) ,"Percantange"); // outputs: 73.83
 
 
+
+var usdt = 10 ;
+
+var usdtRate = 104.80 ;
+
+var riyal = 25 ;
+
+var riyalRate = 28 ;
+
+
+var inPkr = ( usdt * usdtRate) + ( riyal * riyalRate) ;
+
+console.log("Total Currency in PKR ", inPkr)
+
+
+var add = 5 ;
+
+var multiply = 10 ;
+
+var divided = 2 ;
+
+
+var sum = ( add * multiply / divided)  ;
+
+
+console.log(
+sum
+)
+
+
+var currentYear = 2016 ;
+
+var birthYear = 1992 ;
+
+var yourAge = ( currentYear - birthYear)
+
+console.log (
+    "Your Age is", yourAge
+)
+
+
